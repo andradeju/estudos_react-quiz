@@ -1,0 +1,38 @@
+#gameover {
+    text-align: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#gameover h2,
+#gameover p {
+    margin-bottom: 1rem;
+}
+
+#gameover p {
+    color: #8435de;
+}
+
+#gameover img {
+    margin: 2rem;
+    height: 200px;
+}
+
+.button {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(90deg,
+            rgba(132, 53, 222, 1) 0%,
+            rgb(179, 55, 236) 100%);
+    border-radius: 3rem;
+    border: none;
+}
+
+.button:hover {
+    background: linear-gradient(90deg,
+            rgba(184, 84, 232, 1) 0%,
+            rgba(132, 53, 222, 1) 100%);
+}
